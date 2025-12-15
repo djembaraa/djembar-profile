@@ -1,3 +1,4 @@
+import Button from "../components/Button";
 import { words, flags } from "../constants";
 
 function Hero() {
@@ -42,7 +43,9 @@ function Hero() {
                 , I build high-quality web and mobile applications focused on
                 performance, scalability, and business impact.
               </p>
+              
             </div>
+            <Button className="md:w-80 md:h-16 w-60 h-12" id="button" text="See My Work"/>
           </div>
         </header>
       </div>
